@@ -19,7 +19,7 @@ The focus is not only on writing clean, structured code for the web but also on 
 - Practice professional communication and code review workflows
 - Understand the fundamentals of open-source contribution
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -33,7 +33,7 @@ project-root/
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **HTML5**
 - **CSS3**
@@ -42,7 +42,7 @@ project-root/
 
 ---
 
-## 🤝 Team Collaboration
+##  Team Collaboration
 
 This project emphasizes working together as a team. Each contributor:
 
@@ -53,7 +53,7 @@ This project emphasizes working together as a team. Each contributor:
 
 ---
 
-## ✅ How to Contribute
+##  How to Contribute
 
 1. **Fork** or clone the repository it to your local machine
 2. **Create a new branch**:
@@ -76,7 +76,7 @@ By completing this project, we improved our understanding of:
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 - Abdulfetah Adem
 - Amber Renfroe
