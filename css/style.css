@@ -35,7 +35,14 @@ body {
     color: lemonchiffon;
     text-decoration: none;
 }
-
+.nav-a:hover {
+    color: pink;
+    /* text-decoration: none; */
+}
+.nav-a:active {
+    color: hotpink;
+    /* text-decoration: none; */
+}
 /* Header Styles */
 header {
     /*background-color: #2c3e50;*/
