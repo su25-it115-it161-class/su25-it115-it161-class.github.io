@@ -17,14 +17,27 @@ body {
 .site-nav {
     background-color: #2c3e50;
     padding: 1rem;
+    @media screen and (width < 450px) {
+        padding: .2rem;
+    }
 }
 
 .nav-ul {
     display: flex;
     flex-direction: row;
-    gap: 4rem;
-    flex-wrap: wrap;
-    /* replace ^ wrap with a media query later */
+    justify-content: space-evenly;
+
+    @media screen and (width >= 900px) {
+        font-size: 1.5rem;
+        justify-content: space-around;
+        width: 50%;
+        /* this media query will look balanced if there is a logo on the left or right side. If the nav is off-center, it will read better as one component imho */
+    }
+
+    @media screen and (width < 450px) {
+        font-size: .8rem;        
+        justify-content: space-evenly;
+    }
 }
 
 .nav-li {
@@ -32,13 +45,23 @@ body {
 }
 
 .nav-a {
+    /* color: aliceblue; */ 
+    /* a suggestion^ if anybody doesn't like the yellow */
     color: lemonchiffon;
     text-decoration: none;
 }
 
+.nav-a:hover {
+    color: pink;
+}
+
+.nav-a:active {
+    color: hotpink;
+}
+
 /* Header Styles */
 header {
-    /*background-color: #2c3e50;*/
+    background-color: #2c3e50;
     color: white;
     padding: 1rem 0;
     text-align: center;
