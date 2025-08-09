@@ -119,6 +119,10 @@ div.studentwrap {
 	flex-direction: column;
 }
 
+div:hover.studentcard {
+	border: 1px solid #ff06b5;
+}
+
 a:link.student {
 	color: #2c3e50;
 	text-decoration: none;
@@ -130,8 +134,10 @@ a:visited.student {
 }
 
 a:hover.student {
-	color: #2c3e50;
+	color: #ff06b5;
 	text-decoration: underline;
+
+	transition: all 0.3s ease;
 }
 
 a:active.student {
