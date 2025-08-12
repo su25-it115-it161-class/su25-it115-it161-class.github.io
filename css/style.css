@@ -179,6 +179,13 @@ main {
     margin: 0 auto;
 }
 
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
 /* Footer Styles */
 footer {
     color: black;
