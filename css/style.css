@@ -116,21 +116,27 @@ body {
 div.studentcard {
     border: 1px solid #000000;
     padding: 10px;
+    box-shadow: 0 2px 4px #333333;
     flex: 1 1 30%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+div.studentcard:hover {
+    box-shadow: 0 4px 8px #333333;
+    transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
 img.studentcardimg {
     border: 1px solid #000000;
-    width: 100px;
+    max-width: 100%;
     height: 100px;
 }
 
 div.studentcardcontainer {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     justify-content: center;
     gap: 10px;
 }
@@ -160,6 +166,44 @@ a:active.student {
     text-decoration: underline;
 }
 
+/* Student Template */
+#student-body {
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.student-section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+#bio {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#bio h2 {
+    margin-bottom: 10px;
+}
+
+#projects {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+/* Student Template END */
 
 /* Header Styles */
 header {
