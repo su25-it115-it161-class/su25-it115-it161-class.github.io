@@ -5,12 +5,15 @@
     box-sizing: border-box;
 }
 
-body {
+.body-homepage {
     background-image: url('https://northseattle.edu/sites/default/files/stairs-hssr.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+body {
     font-family: sans-serif;
     line-height: 1.6;
     color: #333;
@@ -54,7 +57,7 @@ body {
 }
 
 .nav-li {
-    margin: 0 15px;
+    list-style: None;
 }
 
 .nav-a {
@@ -178,7 +181,6 @@ main {
 
 /* Footer Styles */
 footer {
-    background-color: #linear-gradient(to right, #2c3e50, #1a2530);
     color: black;
     text-align: center;
     padding: 0.4rem;
