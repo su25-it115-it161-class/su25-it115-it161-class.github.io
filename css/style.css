@@ -5,14 +5,6 @@
     box-sizing: border-box;
 }
 
-.body-homepage {
-    background-image: url('https://northseattle.edu/sites/default/files/stairs-hssr.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 body {
     font-family: sans-serif;
     line-height: 1.6;
@@ -44,20 +36,20 @@ body {
     justify-content: space-evenly;
 
     @media screen and (width >= 900px) {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         justify-content: space-around;
         width: 50%;
         /* this media query will look balanced if there is a logo on the left or right side. If the nav is off-center, it will read better as one component imho */
     }
 
     @media screen and (width < 450px) {
-        font-size: .6rem;
+        font-size: .8rem;        
         justify-content: space-evenly;
     }
 }
 
 .nav-li {
-    list-style: None;
+    list-style: none;
 }
 
 .nav-a {
@@ -65,11 +57,6 @@ body {
     /* a suggestion^ if anybody doesn't like the yellow */
     color: lemonchiffon;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 8px 15px;
-    border-radius: 4px;
-    transition: all 0.3s ease;
 }
 
 .nav-a:hover {
@@ -96,11 +83,11 @@ body {
     /* give it some space */
     padding: 40px 20px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
 }
 
 .hero-heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
 }
 
@@ -212,15 +199,6 @@ header {
     margin-bottom: 2rem;
 }
 
-/* Main Styles */
-main {
-    flex: 1;
-    padding: 40px 20px;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 header img {
     width: 200px;
     height: 200px;
@@ -230,11 +208,12 @@ header img {
 
 /* Footer Styles */
 footer {
-    color: black;
+    background-color: #2c3e50;
+    color: #ffffff;
     text-align: center;
-    padding: 0.4rem;
-    margin-top: auto; /* Keep on bottom */
-    /*border-top: 1px solid #eee;*/
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #eee;
 }
 
 /* Button container styles */
@@ -243,8 +222,7 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 40px;
+    margin: 30px 0;
     padding: 0 20px;
 }
 
