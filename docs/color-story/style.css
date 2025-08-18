@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+    color: midnightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper1 {
+    width: 80%;
+    max-width: 75ch;
+}
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    align-items: center;
+    gap: .5rem;
+}
+
+.colors-container {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+h1 {
+    background-color: lightsteelblue;
+    color: midnightblue;
+    padding: .5rem;
+    width: 100%;
+    text-align: center;
+}
+.left,
+.mid,
+.right {
+    color: darkslateblue;
+}
+
+.swatch {
+    color: aliceblue;
+    border: 1px solid midnightblue;
+    width: 10rem;
+    height: 5rem;
+}
+.three {
+    background-color: lightsteelblue;
+    color: midnightblue;
+}
+.seven {
+    background-color: lavender;
+    color: midnightblue;
+}
+.eight {
+    background-color: aliceblue;
+    color: midnightblue;
+}
+
+.one {
+    background-color: blue;
+    width: 10rem;
+    height: 5rem;
+}
+.two {
+    background-color: palegreen;
+    color: midnightblue;
+    width: 10rem;
+    height: 5rem;
+}
+.four {
+    background-color: midnightblue;
+    width: 10rem;
+    height: 5rem;
+}
+.five {
+    background-color:yellowgreen;
+    color: midnightblue;
+    width: 10rem;
+    height: 5rem;
+}
+
+.six {
+    background-color: darkslateblue;
+    width: 10rem;
+    height: 5rem;
+}
+
+
+button {
+    border-radius: .25rem;
+    padding: .5rem;
+    width: 12ch;
+}
+.buttons {
+    display: flex;
+    gap: .5rem;
+}
+.btn-one {
+    background-color: darkslateblue;
+    color: lavender;
+}
+.btn-one:hover {
+    background-color: lavender;
+    color: darkslateblue;
+}
+.btn-two {
+    border: 1px solid midnightblue;
+    background-color: blue;
+    color: aliceblue;
+}
+.btn-two:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+.btn-three {
+    background-color: yellowgreen;
+    color: midnightblue;
+    
+}
+.btn-three:hover {
+    background-color: palegreen;
+    color: midnightblue;
+}
+
+.btn-four {
+    background-color: lightsteelblue;
+    color: darkslateblue;
+}
+.btn-four:hover {
+    background-color: lavender;
+
+}
+.btn-five {
+    background-color: palegreen;
+    color: midnightblue;
+}
+.btn-five:hover {
+    background-color: midnightblue;
+    color:aliceblue;
+}
+.btn-six {
+    border: 2px solid darkslateblue;
+    background-color: midnightblue;
+    color: palegreen;
+}
+.btn-six:hover {
+    background-color: palegreen;
+    color:midnightblue;
+}
+.btn-seven {
+    background-color: lavender;
+    color: darkslateblue;
+}
+.btn-seven:hover {
+    background-color: blue;
+    color:lavender;
+}
