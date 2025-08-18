@@ -1,104 +1,105 @@
 /* Basic Reset & Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    color: #333;
-    /*background-color: #f8f9fa;*/
-    padding: 20px;
+	font-family: sans-serif;
+	line-height: 1.6;
+	color: #333;
+	/*background-color: #f8f9fa;*/
+	padding: 20px;
 }
 
 /* site nav styling */
 .site-nav {
-    background-color: #2c3e50;
-    padding: 1rem;
-    @media screen and (width < 450px) {
-        padding: .2rem;
-    }
+	background-color: #2c3e50;
+	padding: 1rem;
+	@media screen and (width < 450px) {
+		padding: 0.2rem;
+	}
 }
 
 .nav-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 
-    @media screen and (width >= 900px) {
-        font-size: 1.5rem;
-        justify-content: space-around;
-        width: 50%;
-        /* this media query will look balanced if there is a logo on the left or right side. If the nav is off-center, it will read better as one component imho */
-    }
+	@media screen and (width >= 900px) {
+		font-size: 1.5rem;
+		justify-content: space-around;
+		width: 50%;
+		/* this media query will look balanced if there is a logo on the left or right side. If the nav is off-center, it will read better as one component imho */
+	}
 
-    @media screen and (width < 450px) {
-        font-size: .8rem;        
-        justify-content: space-evenly;
-    }
+	@media screen and (width < 450px) {
+		font-size: 0.8rem;
+		justify-content: space-evenly;
+	}
 }
 
 .nav-li {
-    list-style: none;
+	list-style: none;
 }
 
 .nav-a {
-    /* color: aliceblue; */ 
-    /* a suggestion^ if anybody doesn't like the yellow */
-    color: lemonchiffon;
-    text-decoration: none;
+	/* color: aliceblue; */
+	/* a suggestion^ if anybody doesn't like the yellow */
+	color: lemonchiffon;
+	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 /* Hero Section */
 .hero {
-    /* if you have an image, swap out the color below for a background-image:
+	/* if you have an image, swap out the color below for a background-image:
        background: url("../images/hero-bg.jpg") center/cover no-repeat; */
-    background-color: #2a9d8f;
-    color: #fff;
+	background-color: #2a9d8f;
+	color: #fff;
 
-    /* center content */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	/* center content */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-    /* give it some space */
-    padding: 40px 20px;
-    text-align: center;
-    margin-bottom: 2rem;
+	/* give it some space */
+	padding: 40px 20px;
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .hero-heading {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
+	font-size: 3rem;
+	margin-bottom: 0.5rem;
 }
 
 .hero-subheading {
-    font-size: 1.25rem;
-    max-width: 600px;
-    margin: 0 auto;
+	font-size: 1.25rem;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
-
 .nav-a:hover {
-    color: pink;
+	color: pink;
 }
 
 .nav-a:active {
-    color: hotpink;
+	color: hotpink;
 }
 
 /* Student Card CSS */
 div.studentcard {
-    border: 1px solid #000000;
-    padding: 10px;
-    box-shadow: 0 2px 4px #333333;
-    flex: 1 1 30%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+	border: 1px solid #000000;
+	padding: 10px;
+	flex: 1 1 30%;
+  box-shadow: 0 2px 4px #333333;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	transition: all 0.3s ease;
 }
 
 div.studentcard:hover {
@@ -107,41 +108,46 @@ div.studentcard:hover {
 }
 
 img.studentcardimg {
-    border: 1px solid #000000;
-    max-width: 100%;
-    height: 100px;
+	border: 1px solid #000000;
+	max-width: 100%;
+	height: 100px;
 }
 
 div.studentcardcontainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    justify-content: center;
-    gap: 10px;
-}
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	justify-content: center;
+	gap: 10px;
 
 div.studentwrap {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+}
+
+div:hover.studentcard {
+	border: 1px solid #ff06b5;
 }
 
 a:link.student {
-    color: #2c3e50;
-    text-decoration: none;
+	color: #2c3e50;
+	text-decoration: none;
 }
 
 a:visited.student {
-    color: #777777;
-    text-decoration: none;
+	color: #777777;
+	text-decoration: none;
 }
 
 a:hover.student {
-    color: #2c3e50;
-    text-decoration: underline;
+	color: #ff06b5;
+	text-decoration: underline;
+
+	transition: all 0.3s ease;
 }
 
 a:active.student {
-    color: #2c3e50;
-    text-decoration: underline;
+	color: #2c3e50;
+	text-decoration: underline;
 }
 
 /* Student Template */
@@ -185,11 +191,11 @@ a:active.student {
 
 /* Header Styles */
 header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-    margin-bottom: 2rem;
+	background-color: #2c3e50;
+	color: white;
+	padding: 1rem 0;
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 header img {
@@ -201,105 +207,105 @@ header img {
 
 /* Footer Styles */
 footer {
-    background-color: #2c3e50;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    border-top: 1px solid #eee;
+	background-color: #2c3e50;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 2rem;
+	padding: 1rem;
+	border-top: 1px solid #eee;
 }
 
 /* Button container styles */
 .cta-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 30px 0;
-    padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	margin: 30px 0;
+	padding: 0 20px;
 }
 
 /* Base button styles */
 .cta-button {
-    /* Box model */
-    display: inline-block;
-    padding: 12px 24px;
-    min-width: 150px;
+	/* Box model */
+	display: inline-block;
+	padding: 12px 24px;
+	min-width: 150px;
 
-    /* Borders & background */
-    border: 2px solid;
-    border-radius: 8px;
+	/* Borders & background */
+	border: 2px solid;
+	border-radius: 8px;
 
-    /* Typography */
-    color: white !important;
-    text-decoration: none !important;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.1rem;
+	/* Typography */
+	color: white !important;
+	text-decoration: none !important;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.1rem;
 
-    /* Effects */
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	/* Effects */
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Primary button - Deep blue */
 .cta-button.primary {
-    background-color: #2c3e50; /* Dark blue */
-    border-color: #1a2530;
+	background-color: #2c3e50; /* Dark blue */
+	border-color: #1a2530;
 }
 
 /* Secondary button - Medium gray */
 .cta-button.secondary {
-    background-color: #7f8c8d; /* Gray */
-    border-color: #6c7a89;
+	background-color: #7f8c8d; /* Gray */
+	border-color: #6c7a89;
 }
 
 /* Accent button - Seattle College green */
 .cta-button.accent {
-    background-color: #4b7b2f; /* College green */
-    border-color: #3a6025;
+	background-color: #4b7b2f; /* College green */
+	border-color: #3a6025;
 }
 
 /* Hover effects */
 .cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 .cta-button.primary:hover {
-    background-color: #1a2530;
+	background-color: #1a2530;
 }
 
 .cta-button.secondary:hover {
-    background-color: #6c7a89;
+	background-color: #6c7a89;
 }
 
 .cta-button.accent:hover {
-    background-color: #3a6025;
+	background-color: #3a6025;
 }
 
 /* Active state */
 .cta-button:active {
-    transform: translateY(1px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transform: translateY(1px);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Focus state for accessibility */
 .cta-button:focus {
-    outline: 2px solid #f1c40f;
-    outline-offset: 2px;
+	outline: 2px solid #f1c40f;
+	outline-offset: 2px;
 }
 
 /* Mobile responsive styles */
 @media (max-width: 600px) {
-    .cta-container {
-        flex-direction: column;
-        align-items: center;
-    }
+	.cta-container {
+		flex-direction: column;
+		align-items: center;
+	}
 
-    .cta-button {
-        width: 100%;
-        max-width: 300px;
-    }
+	.cta-button {
+		width: 100%;
+		max-width: 300px;
+	}
 }
