@@ -27,12 +27,12 @@ body {
 
 /* site nav styling */
 .site-nav {
-    background-color: rgba(25, 25, 112, 0.8);
+    background-color: rgba(25, 25, 112, 0.85);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(2px);
     margin-bottom: 0.3rem;
     width: 100%;
-    box-shadow: 0 2px 10px black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
     /*left: 0;*/
     /*right: 0;*/
@@ -76,7 +76,7 @@ body {
 }
 
 .nav-a:hover {
-    background-color: midnightblue;
+    background-color: rgba(25, 25, 112, 0.85);
     color: lightsteelblue;
 }
 
@@ -88,7 +88,7 @@ body {
 .hero {
 	/* if you have an image, swap out the color below for a background-image:
        background: url("../images/hero-bg.jpg") center/cover no-repeat; */
-    background-color: rgba(176, 196, 222, 0.8);
+    background-color: rgba(176, 196, 222, 0.85);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(2px);
     color: midnightblue;
