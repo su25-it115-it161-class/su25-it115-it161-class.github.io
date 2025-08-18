@@ -1,6 +1,15 @@
 /* Custom Font */
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 
+h2 {
+  font-family: 'Audiowide', sans-serif;
+}
+
+h1 {
+  font-family: 'Audiowide', serif;
+}
+
+
 /* Basic Reset & Global Styles */
 * {
     margin: 0;
