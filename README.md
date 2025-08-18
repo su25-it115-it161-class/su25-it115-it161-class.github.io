@@ -1,4 +1,4 @@
-# IT 115 Class Website
+# IT 161 Class Website
 
 A collaborative website created by the class.
 ---
