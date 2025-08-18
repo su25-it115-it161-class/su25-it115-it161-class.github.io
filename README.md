@@ -1,6 +1,6 @@
 # IT 115 Class Website
 
-A colabrative website create by the glass.
+A collaborative website created by the class.
 ---
 
 ## Contributors
