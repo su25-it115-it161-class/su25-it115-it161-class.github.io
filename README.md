@@ -1,9 +1,9 @@
 # IT 161 Class Website
 
-A collaborative website created by the class.
+> A collaborative website created by the class.
 ---
 
-## Contributors
+### Contributors
 * Amber Renfroe
 * Brett Wille
 * Student Name
