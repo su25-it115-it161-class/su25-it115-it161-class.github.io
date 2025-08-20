@@ -1,0 +1,28 @@
+# Dependency directories
+/node_modules
+
+# Ignore log files
+*.log
+
+# Ignore temp folders
+temp/ 
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Editor directories and files
+.vscode/*
+.vscode-test
+!.vscode/extensions.json
+.idea
+.idea/*
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
