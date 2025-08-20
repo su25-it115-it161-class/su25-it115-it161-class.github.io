@@ -7,5 +7,5 @@
 * Amber Renfroe
 * Brett Wille
 * Reily Love
-* Student Name
+* Daniel Merced
 * Student Name
