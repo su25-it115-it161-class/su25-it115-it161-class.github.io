@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-	<title>About the Class</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="images/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>About the Class</title>
+  <meta name="description" content="About this IT161/IT115 class project — goals, skills, and technologies we’re practicing.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
 </head>
+<body>
+  <!-- Accessibility -->
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<body class="content-page">
-	<nav class="site-nav">
-		<ul class="nav-ul">
-			<li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
-			<li class="nav-li"><a class="nav-a" href="about.html">About</a></li>
-			<li class="nav-li"><a class="nav-a" href="students.html">Students</a></li>
-		</ul>
-	</nav>
-	<header>
-		<h1>About the Class</h1>
-		<p>Welcome to IT161 — Web Authoring</p>
-	</header>
-	<main>
-		<section>
-			<h2>Course Overview</h2>
-			<p>IT161 introduces the fundamentals of web development. Students learn to build, style, and structure
-				websites using HTML and CSS. The course emphasizes accessibility, usability, and responsive design.</p>
-		</section>
+  <!-- Site Header -->
+  <header class="site-header">
+    <h1 class="site-title">IT115 / IT161 — Class Project Hub</h1>
 
-		<section>
-			<h2>Website Purpose</h2>
-			<p>This website serves as a central project space for the class. It showcases student work, development
-				updates, and a growing understanding of front-end web technologies.</p>
-		</section>
-	</main>
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="nav-ul">
+        <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+        <li class="nav-li"><a class="nav-a" href="about.html" aria-current="page">About</a></li>
+        <li class="nav-li"><a class="nav-a" href="students.html">Students</a></li>
+      </ul>
+    </nav>
 
-	<footer>
-		<p>© 2025 North Seattle College IT115 & IT161</p>
-	</footer>
+    <div class="banner">
+      <p>Go Tree Frogs. Our time is now!</p>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main">
+    <section class="student-grid">
+      <article class="student-card">
+        <h2 style="margin:0 0 .5rem;">About the Class</h2>
+        <p>Welcome to <strong>IT161 — Web Authoring</strong>.</p>
+      </article>
+
+      <article class="student-card">
+        <h3>Course Overview</h3>
+        <p>IT161 introduces the fundamentals of web development. Students learn to build, style, and structure websites using HTML and CSS. The course emphasizes accessibility, usability, and responsive design.</p>
+      </article>
+
+      <article class="student-card">
+        <h3>Website Purpose</h3>
+        <p>This website serves as a central project space for the class. It showcases student work, development updates, and a growing understanding of front-end web technologies.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 North Seattle College IT115 & IT161</p>
+  </footer>
 </body>
-
 </html>

@@ -1,96 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-	<title>Students Page</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" href="images/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>Students Page</title>
+  <meta name="description" content="Meet the students contributing to the North Seattle College IT115 & IT161 class project.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
 </head>
+<body>
+  <!-- Accessibility -->
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<body class="content-page">
-	<nav class="site-nav">
-		<ul class="nav-ul">
-			<li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
-			<li class="nav-li"><a class="nav-a" href="about.html">About</a></li>
-			<li class="nav-li"><a class="nav-a" href="students.html">Students</a></li>
-		</ul>
-	</nav>
-	<header>
-		<h1>Meet The Students</h1>
-	</header>
+  <!-- Site Header -->
+  <header class="site-header">
+    <h1 class="site-title">IT115 / IT161 — Class Project Hub</h1>
 
-	<main>
-		<!-- Student Cards Template-->
-		<div class="studentcardcontainer">
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/el-cat.jpg" alt="El Brewster" />
-				<div class="studentwrap">
-					<h3>El Brewster</h3>
-					<a class="student" href="students/el-brewster.html" aria-label="View El Brewster's Profile">View
-						Profile</a>
-				</div>
-			</div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="nav-ul">
+        <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+        <li class="nav-li"><a class="nav-a" href="about.html">About</a></li>
+        <li class="nav-li"><a class="nav-a" href="students.html" aria-current="page">Students</a></li>
+      </ul>
+    </nav>
 
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/ah-profile.jpg" alt="Anthony Hillis" />
-				<div class="studentwrap">
-					<h3>Anthony Hillis</h3>
-					<a class="student" href="students/anthony-hillis.html"
-						aria-label="View Anthony Hillis's Profile">View Profile</a>
-				</div>
-			</div>
+    <div class="banner">
+      <p>Go Tree Frogs. Our time is now!</p>
+    </div>
+  </header>
 
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/stabius-werner.png" alt="Student Name" />
-				<div class="studentwrap">
-					<h3>Reily Love</h3>
-					<a class="student" href="students/reily-love.html"
-						aria-label="View Student Name's Profile">View Profile</a>
-				</div>
-			</div>
+  <!-- Main content -->
+  <main id="main">
+    <header style="text-align:center; margin-bottom:1rem;">
+      <h2>Meet The Students</h2>
+    </header>
 
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/studentname.png" alt="Student Name" />
-				<div class="studentwrap">
-					<h3>Student Name</h3>
-					<a class="student" href="students/student-template.html"
-						aria-label="View Student Name's Profile">View Profile</a>
-				</div>
-			</div>
+    <!-- Your existing card template (kept intact) -->
+    <div class="studentcardcontainer">
+      <div class="studentcard">
+        <img class="studentcardimg" src="students/images/studentname.png" alt="Student Name">
+        <div class="studentwrap">
+          <h3>Student Name</h3>
+          <a class="student" href="students/student-template.html" aria-label="View Student Name's Profile">View Profile</a>
+        </div>
+      </div>
 
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/studentname.png" alt="Student Name" />
-				<div class="studentwrap">
-					<h3>Student Name</h3>
-					<a class="student" href="students/student-template.html"
-						aria-label="View Student Name's Profile">View Profile</a>
-				</div>
-			</div>
+      <div class="studentcard">
+        <img class="studentcardimg" src="students/images/studentname.png" alt="Student Name">
+        <div class="studentwrap">
+          <h3>Student Name</h3>
+          <a class="student" href="students/student-template.html" aria-label="View Student Name's Profile">View Profile</a>
+        </div>
+      </div>
 
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/studentname.png" alt="Student Name" />
-				<div class="studentwrap">
-					<h3>Student Name</h3>
-					<a class="student" href="students/student-template.html"
-						aria-label="View Student Name's Profile">View Profile</a>
-				</div>
-			</div>
+      <div class="studentcard">
+        <img class="studentcardimg" src="students/images/studentname.png" alt="Student Name">
+        <div class="studentwrap">
+          <h3>Student Name</h3>
+          <a class="student" href="students/student-template.html" aria-label="View Student Name's Profile">View Profile</a>
+        </div>
+      </div>
 
-			<div class="studentcard">
-				<img class="studentcardimg" src="students/images/studentname.png" alt="Student Name" />
-				<div class="studentwrap">
-					<h3>Student Name</h3>
-					<a class="student" href="students/student-template.html"
-						aria-label="View Student Name's Profile">View Profile</a>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer>
-		<p>© 2025 North Seattle College IT115 & IT161</p>
-	</footer>
+      <div class="studentcard">
+        <img class="studentcardimg" src="students/images/studentname.png" alt="Student Name">
+        <div class="studentwrap">
+          <h3>Student Name</h3>
+          <a class="student" href="students/student-template.html" aria-label="View Student Name's Profile">View Profile</a>
+        </div>
+      </div>
+
+      <div class="studentcard">
+        <img class="studentcardimg" src="students/images/studentname.png" alt="Student Name">
+        <div class="studentwrap">
+          <h3>Student Name</h3>
+          <a class="student" href="students/student-template.html" aria-label="View Student Name's Profile">View Profile</a>
+        </div>
+      </div>
+
+      <div class="studentcard">
+        <img class="studentcardimg" src="students/images/studentname.png" alt="Student Name">
+        <div class="studentwrap">
+          <h3>Student Name</h3>
+          <a class="student" href="students/student-template.html" aria-label="View Student Name's Profile">View Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- (Optional) Page blocking overlay — enabled by default here -->
+    <div id="block-overlay" aria-hidden="true">
+      <div class="block-card" role="dialog" aria-modal="true" aria-labelledby="block-title">
+        <h2 id="block-title">This page is temporarily unavailable</h2>
+        <p>Access is blocked for maintenance or class policy.</p>
+        <p id="unblock-at" hidden>Unblocks at: 2025-08-15T17:00:00-07:00</p>
+        <p id="countdown" aria-live="polite"></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 North Seattle College IT115 & IT161</p>
+  </footer>
+
+  <!-- Blocking logic -->
+  <script>
+  (() => {
+    // OPTION A: Block indefinitely — leave UNBLOCK_AT = '' (empty string).
+    // OPTION B: Auto-unblock at a specific time — set an ISO date like:
+    // '2025-08-15T17:00:00-07:00'
+    const UNBLOCK_AT = '';
+
+    const overlay = document.getElementById('block-overlay');
+    const countdown = document.getElementById('countdown');
+    const unblockAt = document.getElementById('unblock-at');
+
+    const setBlocked = (isBlocked) => {
+      overlay.style.display = isBlocked ? 'grid' : 'none';
+      document.documentElement.style.overflow = isBlocked ? 'hidden' : '';
+    };
+
+    if (!UNBLOCK_AT) {
+      setBlocked(true);
+    } else {
+      unblockAt.hidden = false;
+      unblockAt.textContent = 'Unblocks at: ' + UNBLOCK_AT;
+      const tick = () => {
+        const now = new Date();
+        const target = new Date(UNBLOCK_AT);
+        const diff = target - now;
+        if (diff > 0) {
+          setBlocked(true);
+          const s = Math.floor(diff / 1000);
+          const h = Math.floor(s / 3600);
+          const m = Math.floor((s % 3600) / 60);
+          const sec = s % 60;
+          countdown.textContent = `Time remaining: ${h}h ${m}m ${sec}s`;
+          requestAnimationFrame(tick);
+        } else {
+          setBlocked(false);
+        }
+      };
+      tick();
+    }
+  })();
+  </script>
 </body>
-
 </html>
