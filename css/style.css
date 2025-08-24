@@ -96,6 +96,11 @@ h1 {
 	font-family: 'Audiowide', serif;
 }
 
+/* About Page Margin */
+.about {
+	margin: 0 20px;
+}
+
 /* Hero Section */
 .hero {
 	/* if you have an image, swap out the color below for a background-image:
@@ -156,6 +161,7 @@ div.studentcardcontainer {
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	justify-content: center;
 	gap: 10px;
+	margin: 0 20px;
 }
 
 div.studentwrap {
