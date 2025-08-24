@@ -292,23 +292,9 @@ footer {
 }
 
 /* Primary button - Deep blue */
-.cta-button.primary {
+.cta-button {
 	background-color: midnightblue;
 	/* Dark blue */
-	border-color: darkslateblue;
-}
-
-/* Secondary button - Medium gray */
-.cta-button.secondary {
-	background-color: lightsteelblue;
-	/* Gray */
-	border-color: darkslateblue;
-}
-
-/* Accent button - Seattle College green */
-.cta-button.accent {
-	background-color: yellowgreen;
-	/* College green */
 	border-color: darkslateblue;
 }
 
@@ -316,18 +302,7 @@ footer {
 .cta-button:hover {
 	transform: translateY(-2px);
 	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-}
-
-.cta-button.primary:hover {
 	background-color: midnightblue;
-}
-
-.cta-button.secondary:hover {
-	background-color: lightsteelblue;
-}
-
-.cta-button.accent:hover {
-	background-color: yellowgreen;
 }
 
 /* Active state */
