@@ -354,3 +354,8 @@ footer {
 		max-width: 300px;
 	}
 }
+
+.content-page {
+	width: 80%;
+	margin: 0 auto;
+}
