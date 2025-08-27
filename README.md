@@ -8,4 +8,5 @@
 * Brett Wille
 * Reily Love
 * Daniel Merced
+* Shan Lu
 * Student Name
