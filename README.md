@@ -8,4 +8,5 @@
 * Brett Wille
 * Reily Love
 * Daniel Merced
-* Student Name
+* Shan Lu
+* Emily Curie
