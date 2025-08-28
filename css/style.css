@@ -96,6 +96,11 @@ h1 {
 	font-family: 'Audiowide', serif;
 }
 
+/* About Page Margin */
+.about {
+	margin: 0 20rem;
+}
+
 /* Hero Section */
 .hero {
 	/* if you have an image, swap out the color below for a background-image:
@@ -156,6 +161,7 @@ div.studentcardcontainer {
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	justify-content: center;
 	gap: 10px;
+	margin: 0 20rem;
 }
 
 div.studentwrap {
@@ -269,18 +275,20 @@ footer {
 }
 
 /* Base button styles */
-.cta-button {
+.cta-btn {
 	/* Box model */
 	display: inline-block;
 	padding: 12px 24px;
 	min-width: 150px;
 
 	/* Borders & background */
-	border: 2px solid;
+	border: 2px solid midnightblue;
 	border-radius: 8px;
 
 	/* Typography */
-	color: aliceblue !important;
+	/* removed the important argment, */
+	/* if buttons change background colors, font colors need changes */
+	color: aliceblue;
 	text-decoration: none !important;
 	font-weight: bold;
 	text-align: center;
@@ -293,52 +301,73 @@ footer {
 }
 
 /* Primary button - Deep blue */
-.cta-button.primary {
+.cta-btn.view-btn {
 	background-color: midnightblue;
 	/* Dark blue */
 	border-color: darkslateblue;
+	color:palegreen;
 }
-
+.cta-btn.view-btn:hover {
+	background-color: blue;
+	/* Dark blue */
+	border-color: darkslateblue;
+	color:aliceblue;
+}
+.cta-btn.view-btn:active {
+	background-color: aliceblue;
+	/* Dark blue */
+	border-color: darkslateblue;
+	color:blue;
+}
 /* Secondary button - Medium gray */
-.cta-button.secondary {
+.cta-btn.join-btn {
 	background-color: lightsteelblue;
 	/* Gray */
 	border-color: darkslateblue;
+	color: darkslateblue;
 }
-
-/* Accent button - Seattle College green */
-.cta-button.accent {
-	background-color: yellowgreen;
-	/* College green */
+.cta-btn.join-btn:hover {
+	background-color: aliceblue;
+	/* Gray */
 	border-color: darkslateblue;
+	color: blue;
 }
-
+.cta-btn.join-btn:active {
+	background-color: midnightblue;
+	/* Gray */
+	border-color: darkslateblue;
+	color: aliceblue;
+}
+/* Accent button - Seattle College green */
+.cta-btn.learn-btn {
+	background-color: yellowgreen;
+	border-color: darkslateblue;
+	color: midnightblue;
+}
+.cta-btn.learn-btn:hover {
+	background-color: palegreen;
+	border-color: darkslateblue;
+	color: darkslateblue;
+}
+.cta-btn.learn-btn:active {
+	background-color: blue;
+	border-color: darkslateblue;
+	color: aliceblue;
+}
 /* Hover effects */
-.cta-button:hover {
+.cta-btn:hover {
 	transform: translateY(-2px);
 	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
-.cta-button.primary:hover {
-	background-color: midnightblue;
-}
-
-.cta-button.secondary:hover {
-	background-color: lightsteelblue;
-}
-
-.cta-button.accent:hover {
-	background-color: yellowgreen;
-}
-
 /* Active state */
-.cta-button:active {
+.cta-btn:active {
 	transform: translateY(1px);
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Focus state for accessibility */
-.cta-button:focus {
+.cta-btn:focus {
 	outline: 2px solid yellowgreen;
 	outline-offset: 2px;
 }
@@ -350,8 +379,13 @@ footer {
 		align-items: center;
 	}
 
-	.cta-button {
+	.cta-btn {
 		width: 100%;
 		max-width: 300px;
 	}
+}
+
+.content-page {
+	width: 80%;
+	margin: 0 auto;
 }

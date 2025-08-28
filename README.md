@@ -10,4 +10,3 @@
 * Daniel Merced
 * Shan Lu
 * Emily Curie
-* Student Name
