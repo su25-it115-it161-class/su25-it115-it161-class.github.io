@@ -26,6 +26,9 @@ body {
 	line-height: 1.6;
 	color: midnightblue;
 	background-color: aliceblue;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* site nav styling */
@@ -381,18 +384,4 @@ footer {
 .content-page {
 	width: 80%;
 	margin: 0 auto;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1;
 }
